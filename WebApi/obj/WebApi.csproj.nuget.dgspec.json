@@ -1,0 +1,335 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/WebApi/WebApi.csproj": {}
+  },
+  "projects": {
+    "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Application/Application.csproj",
+        "packagesPath": "/Users/irakli/.nuget/packages/",
+        "outputPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/irakli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugets.lemon.do/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Domain/Domain.csproj": {
+                "projectPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Domain/Domain.csproj",
+        "packagesPath": "/Users/irakli/.nuget/packages/",
+        "outputPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/irakli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugets.lemon.do/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Infrastructure/Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/Users/irakli/.nuget/packages/",
+        "outputPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/irakli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugets.lemon.do/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Presentation/Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Presentation/Presentation.csproj",
+        "projectName": "Presentation",
+        "projectPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Presentation/Presentation.csproj",
+        "packagesPath": "/Users/irakli/.nuget/packages/",
+        "outputPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Presentation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/irakli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugets.lemon.do/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/WebApi/WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/WebApi/WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/WebApi/WebApi.csproj",
+        "packagesPath": "/Users/irakli/.nuget/packages/",
+        "outputPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/irakli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugets.lemon.do/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Application/Application.csproj": {
+                "projectPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Application/Application.csproj"
+              },
+              "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Infrastructure/Infrastructure.csproj"
+              },
+              "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Presentation/Presentation.csproj": {
+                "projectPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Presentation/Presentation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

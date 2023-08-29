@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wl1P57CQMy6RZMHtD/OfItwM3CXDKmHW0V/Bvi2e/bxFuvu/iuRuN17/xSoWBtCfKL/HCg+yf1bKU1mXuGR4lQ==",
+  "success": true,
+  "projectFilePath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Presentation/Presentation.csproj",
+  "expectedPackageFiles": [
+    "/Users/irakli/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

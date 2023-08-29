@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "oSDZw9JLGqEt9UQzSmE5VtGK2sF1v8BOYb4FkP0E/PCdiJNnXGWSYf5NB2+2tP5HV07+P3Mx6GDnD0/tWhuP4g==",
+  "success": true,
+  "projectFilePath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/irakli/.nuget/packages/fluentvalidation/11.5.0/fluentvalidation.11.5.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.0/fluentvalidation.dependencyinjectionextensions.11.5.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/mediatr/12.0.0/mediatr.12.0.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/mediatr.contracts/2.0.0/mediatr.contracts.2.0.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
