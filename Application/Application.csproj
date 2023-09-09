@@ -15,4 +15,18 @@
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Movies\" />
+    <None Remove="Movies\SearchByName\" />
+    <None Remove="Movies\MarkAsSeen\" />
+    <None Remove="Movies\GetWatchedMovies\" />
+    <None Remove="Movies\AddMovieToWatchlist\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Movies\" />
+    <Folder Include="Movies\SearchByName\" />
+    <Folder Include="Movies\MarkAsSeen\" />
+    <Folder Include="Movies\GetMoviesInWatchlist\" />
+    <Folder Include="Movies\AddMovieToWatchlist\" />
+  </ItemGroup>
 </Project>

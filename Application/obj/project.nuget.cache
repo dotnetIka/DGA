@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oSDZw9JLGqEt9UQzSmE5VtGK2sF1v8BOYb4FkP0E/PCdiJNnXGWSYf5NB2+2tP5HV07+P3Mx6GDnD0/tWhuP4g==",
+  "dgSpecHash": "gVHbldAeVwfKC2ToFrPX5NCRt2Jf8zLMPHOvTgADKmdSwq35+KPcKK9Q+U6sDqeX5BdRlxiyHkpjJY4i1E68GA==",
   "success": true,
-  "projectFilePath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Application/Application.csproj",
+  "projectFilePath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Application/Application.csproj",
   "expectedPackageFiles": [
     "/Users/irakli/.nuget/packages/fluentvalidation/11.5.0/fluentvalidation.11.5.0.nupkg.sha512",
     "/Users/irakli/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.0/fluentvalidation.dependencyinjectionextensions.11.5.0.nupkg.sha512",

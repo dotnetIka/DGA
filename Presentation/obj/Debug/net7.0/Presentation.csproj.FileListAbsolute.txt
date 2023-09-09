@@ -1,0 +1,17 @@
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/bin/Debug/net7.0/Presentation.deps.json
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/bin/Debug/net7.0/Presentation.dll
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/bin/Debug/net7.0/Presentation.pdb
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/bin/Debug/net7.0/Application.dll
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/bin/Debug/net7.0/Domain.dll
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/bin/Debug/net7.0/Application.pdb
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/bin/Debug/net7.0/Domain.pdb
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/obj/Debug/net7.0/Presentation.csproj.AssemblyReference.cache
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/obj/Debug/net7.0/Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/obj/Debug/net7.0/Presentation.AssemblyInfoInputs.cache
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/obj/Debug/net7.0/Presentation.AssemblyInfo.cs
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/obj/Debug/net7.0/Presentation.csproj.CoreCompileInputs.cache
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/obj/Debug/net7.0/Presentation.csproj.CopyComplete
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/obj/Debug/net7.0/Presentation.dll
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/obj/Debug/net7.0/refint/Presentation.dll
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/obj/Debug/net7.0/Presentation.pdb
+/Users/irakli/Desktop/DGA/CleanArchitecture/Presentation/obj/Debug/net7.0/ref/Presentation.dll

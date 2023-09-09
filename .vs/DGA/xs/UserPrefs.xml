@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{9BCCCB15-3FAF-4AB6-A166-B22EF4A18314}|https">
+  <MonoDevelop.Ide.ItemProperties.src.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Application/DependencyInjection.cs">
+    <Files>
+      <File FileName="Infrastructure/DependencyInjection.cs" Line="1" Column="1" />
+      <File FileName="Presentation/DependencyInjection.cs" Line="1" Column="1" />
+      <File FileName="WebApi/Program.cs" Line="1" Column="1" />
+      <File FileName="Application/DependencyInjection.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CleanArchitecture" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="DependencyInjection.cs" selected="True" />
+              </Node>
+              <Node name="Domain" expanded="True" />
+              <Node name="Infrastructure" expanded="True" />
+              <Node name="Presentation" expanded="True" />
+              <Node name="WebApi" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

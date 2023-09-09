@@ -1,0 +1,12 @@
+/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/bin/Debug/net7.0/Domain.deps.json
+/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/bin/Debug/net7.0/Domain.dll
+/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/bin/Debug/net7.0/Domain.pdb
+/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
+/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/obj/Debug/net7.0/Domain.dll
+/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/obj/Debug/net7.0/refint/Domain.dll
+/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/obj/Debug/net7.0/Domain.pdb
+/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/obj/Debug/net7.0/ref/Domain.dll

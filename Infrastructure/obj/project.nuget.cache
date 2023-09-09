@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ScYaAB2PX0sWn9hl3j2E8d3LqEL7XWdgiPSw2mQYH6meKg2nOJPgbnCJZElemb7N/sAQ3I9g+UW9UFL+779ldQ==",
+  "dgSpecHash": "auUEWS4YBVurvFk4MgvIhMJMElwQZX/gZXY7fZX6HWEkXbAkZdbL3ZVBjm7gmgxhL9sQlm7yR6sV9rTlbt3XCg==",
   "success": true,
-  "projectFilePath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/irakli/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],

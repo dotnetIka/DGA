@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Infrastructure/Infrastructure.csproj": {}
+    "/Users/irakli/Desktop/DGA/CleanArchitecture/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Infrastructure/Infrastructure.csproj": {
+    "/Users/irakli/Desktop/DGA/CleanArchitecture/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/irakli/Desktop/DGA/CleanArchitecture/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/Users/irakli/.nuget/packages/",
-        "outputPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Infrastructure/obj/",
+        "outputPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/irakli/.nuget/NuGet/NuGet.Config"

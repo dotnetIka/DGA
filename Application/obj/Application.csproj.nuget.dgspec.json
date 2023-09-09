@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Application/Application.csproj": {}
+    "/Users/irakli/Desktop/DGA/CleanArchitecture/Application/Application.csproj": {}
   },
   "projects": {
-    "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Application/Application.csproj": {
+    "/Users/irakli/Desktop/DGA/CleanArchitecture/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Application/Application.csproj",
+        "projectUniqueName": "/Users/irakli/Desktop/DGA/CleanArchitecture/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Application/Application.csproj",
+        "projectPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Application/Application.csproj",
         "packagesPath": "/Users/irakli/.nuget/packages/",
-        "outputPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Application/obj/",
+        "outputPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/irakli/.nuget/NuGet/NuGet.Config"
@@ -27,8 +27,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Domain/Domain.csproj": {
-                "projectPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Domain/Domain.csproj"
+              "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/Domain.csproj": {
+                "projectPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/Domain.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Domain/Domain.csproj": {
+    "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Domain/Domain.csproj",
+        "projectUniqueName": "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Domain/Domain.csproj",
+        "projectPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/Domain.csproj",
         "packagesPath": "/Users/irakli/.nuget/packages/",
-        "outputPath": "/Users/irakli/Downloads/source-code (2)/after/CleanArchitecture/Domain/obj/",
+        "outputPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/irakli/.nuget/NuGet/NuGet.Config"
