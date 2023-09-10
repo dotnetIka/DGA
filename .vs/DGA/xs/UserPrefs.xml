@@ -1,6 +1,6 @@
-﻿<Properties StartupConfiguration="{9BCCCB15-3FAF-4AB6-A166-B22EF4A18314}|https">
-  <MonoDevelop.Ide.ItemProperties.src.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{9BCCCB15-3FAF-4AB6-A166-B22EF4A18314}|https">
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Application/DependencyInjection.cs">
     <Files>
       <File FileName="Infrastructure/DependencyInjection.cs" Line="1" Column="1" />
@@ -26,9 +26,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.src.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
