@@ -1,15 +1,29 @@
 {
   "version": 2,
-  "dgSpecHash": "gVHbldAeVwfKC2ToFrPX5NCRt2Jf8zLMPHOvTgADKmdSwq35+KPcKK9Q+U6sDqeX5BdRlxiyHkpjJY4i1E68GA==",
+  "dgSpecHash": "UIXpSsFyrXQ4/tfBO32HhHf+7vWdfmxGkPx0c54nh8FKtQevo7a0JemZk9K6dz2Sh9IIhsRpdX/MbPX9xUg6WA==",
   "success": true,
-  "projectFilePath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Application/Application.csproj",
+  "projectFilePath": "/Users/irakli/Desktop/DGA/DGA/Application/Application.csproj",
   "expectedPackageFiles": [
     "/Users/irakli/.nuget/packages/fluentvalidation/11.5.0/fluentvalidation.11.5.0.nupkg.sha512",
     "/Users/irakli/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.0/fluentvalidation.dependencyinjectionextensions.11.5.0.nupkg.sha512",
     "/Users/irakli/.nuget/packages/mediatr/12.0.0/mediatr.12.0.0.nupkg.sha512",
     "/Users/irakli/.nuget/packages/mediatr.contracts/2.0.0/mediatr.contracts.2.0.0.nupkg.sha512",
     "/Users/irakli/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
-    "/Users/irakli/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "/Users/irakli/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.5/microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.5/microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.5/microsoft.entityframeworkcore.relational.7.0.5.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/npgsql/7.0.4/npgsql.7.0.4.nupkg.sha512",
+    "/Users/irakli/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.4/npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512"
   ],
   "logs": []
 }

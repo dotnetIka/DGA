@@ -1,0 +1,20 @@
+﻿using System;
+using FluentValidation;
+
+namespace Application.Movies.MarkAsSeen
+{
+	public class MarkMovieAsSeenCommandValidator : AbstractValidator<MarkMovieAsSeenCommand>
+    {
+        public MarkMovieAsSeenCommandValidator()
+        {
+            RuleFor(command => command.UserId)
+                .NotEmpty().WithMessage("UserId is required.")
+                .GreaterThan(0).WithMessage("UserId must be a positive integer.");
+
+            RuleFor(command => command.MovieId)
+                .NotEmpty().WithMessage("MovieId is required.")
+                .GreaterThan(0).WithMessage("MovieId must be a positive integer.");
+        }
+    }
+}
+

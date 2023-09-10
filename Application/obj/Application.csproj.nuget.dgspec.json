@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/irakli/Desktop/DGA/CleanArchitecture/Application/Application.csproj": {}
+    "/Users/irakli/Desktop/DGA/DGA/Application/Application.csproj": {}
   },
   "projects": {
-    "/Users/irakli/Desktop/DGA/CleanArchitecture/Application/Application.csproj": {
+    "/Users/irakli/Desktop/DGA/DGA/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/irakli/Desktop/DGA/CleanArchitecture/Application/Application.csproj",
+        "projectUniqueName": "/Users/irakli/Desktop/DGA/DGA/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Application/Application.csproj",
+        "projectPath": "/Users/irakli/Desktop/DGA/DGA/Application/Application.csproj",
         "packagesPath": "/Users/irakli/.nuget/packages/",
-        "outputPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Application/obj/",
+        "outputPath": "/Users/irakli/Desktop/DGA/DGA/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/irakli/.nuget/NuGet/NuGet.Config"
@@ -27,8 +27,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/Domain.csproj": {
-                "projectPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/Domain.csproj"
+              "/Users/irakli/Desktop/DGA/DGA/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/irakli/Desktop/DGA/DGA/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/Domain.csproj": {
+    "/Users/irakli/Desktop/DGA/DGA/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/Domain.csproj",
+        "projectUniqueName": "/Users/irakli/Desktop/DGA/DGA/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/Domain.csproj",
+        "projectPath": "/Users/irakli/Desktop/DGA/DGA/Domain/Domain.csproj",
         "packagesPath": "/Users/irakli/.nuget/packages/",
-        "outputPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/obj/",
+        "outputPath": "/Users/irakli/Desktop/DGA/DGA/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/irakli/.nuget/NuGet/NuGet.Config"
@@ -106,6 +106,74 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/irakli/Desktop/DGA/DGA/Infrastructure/Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/irakli/Desktop/DGA/DGA/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/Users/irakli/Desktop/DGA/DGA/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/Users/irakli/.nuget/packages/",
+        "outputPath": "/Users/irakli/Desktop/DGA/DGA/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/irakli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugets.lemon.do/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/irakli/Desktop/DGA/DGA/Domain/Domain.csproj": {
+                "projectPath": "/Users/irakli/Desktop/DGA/DGA/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

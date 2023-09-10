@@ -1,17 +1,33 @@
 ﻿using System;
+using FluentValidation;
+using Infrastructure;
+using Infrastructure.Repositories.Interfaces;
 using MediatR;
 
 namespace Application.Movies.MarkAsSeen
 {
-	internal sealed class MarkMovieAsSeenCommandHandler : IRequestHandler<MarkMovieAsSeenCommand, bool>
+	internal sealed class MarkMovieAsSeenCommandHandler : IRequestHandler<MarkMovieAsSeenCommand, Result<bool>>
 	{
-		public MarkMovieAsSeenCommandHandler()
-		{
-		}
+        private readonly IMoviesRepository _moviesRepository;
+        private readonly IValidator<MarkMovieAsSeenCommand> _validator;
 
-        public Task<bool> Handle(MarkMovieAsSeenCommand request, CancellationToken cancellationToken)
+        public MarkMovieAsSeenCommandHandler(IMoviesRepository moviesRepository, IValidator<MarkMovieAsSeenCommand> validator)
+		{
+            _moviesRepository = moviesRepository;
+            _validator = validator;
+        }
+
+        public async Task<Result<bool>> Handle(MarkMovieAsSeenCommand request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            var validationResult = await _validator.ValidateAsync(request, cancellationToken);
+
+            if (!validationResult.IsValid)
+            {
+                var errorMessages = validationResult.Errors.Select(error => error.ErrorMessage).ToList();
+                return Result<bool>.ErrorResult(400, "Validation failed.").WithErrors(errorMessages);
+            }
+
+            return await _moviesRepository.MarkAsSeenAsync(request.UserId, request.MovieId);
         }
     }
 }

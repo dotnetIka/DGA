@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YO49oKUjs+Gui6zvwudQlN2PoHEuV3tpggUiWy/BLM54hiCVDjSCPsTyzISAbW8ejhBh2WZ1IjGgnZdEmwGCpw==",
+  "dgSpecHash": "nqGYqazMyOcGhsjgFEv2LJepjBEyHmmnR7HPQ4MOjIzIZ0DZPAn4MpCYXsd9awq+0eNzP4l9E1A4/hNSMeUcxQ==",
   "success": true,
-  "projectFilePath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/Domain.csproj",
+  "projectFilePath": "/Users/irakli/Desktop/DGA/DGA/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

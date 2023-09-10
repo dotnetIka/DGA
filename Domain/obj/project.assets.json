@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/Domain.csproj",
+      "projectUniqueName": "/Users/irakli/Desktop/DGA/DGA/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/Domain.csproj",
+      "projectPath": "/Users/irakli/Desktop/DGA/DGA/Domain/Domain.csproj",
       "packagesPath": "/Users/irakli/.nuget/packages/",
-      "outputPath": "/Users/irakli/Desktop/DGA/CleanArchitecture/Domain/obj/",
+      "outputPath": "/Users/irakli/Desktop/DGA/DGA/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/irakli/.nuget/NuGet/NuGet.Config"

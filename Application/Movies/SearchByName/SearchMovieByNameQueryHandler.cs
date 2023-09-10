@@ -1,17 +1,23 @@
 ﻿using System;
+using Domain.Entities;
+using Infrastructure;
+using Infrastructure.Repositories.Interfaces;
 using MediatR;
 
 namespace Application.Movies
 {
-	internal sealed class SearchMovieByNameQueryHandler : IRequestHandler<SearchMovieByNameQuery, List<string>>
+	internal sealed class SearchMovieByNameQueryHandler : IRequestHandler<SearchMovieByNameQuery, Result<List<Movie>>>
 	{
-		public SearchMovieByNameQueryHandler()
-		{
-		}
+        private readonly IMoviesRepository _moviesRepository;
 
-        public Task<List<string>> Handle(SearchMovieByNameQuery request, CancellationToken cancellationToken)
+        public SearchMovieByNameQueryHandler(IMoviesRepository moviesRepository)
+		{
+            _moviesRepository = moviesRepository;
+        }
+
+        public async Task<Result<List<Movie>>> Handle(SearchMovieByNameQuery request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return await _moviesRepository.SearchByNameAsync(request.MovieName);
         }
     }
 }

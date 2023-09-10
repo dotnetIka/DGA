@@ -23,37 +23,37 @@ namespace Presentation.Controllers
         [HttpPost("add-to-watchlist")]
         public async Task<IActionResult> AddToWatchlist(AddMovieToWatchlistCommand command)
         {
-            var success = await _mediator.Send(command);
-            if (success)
+            var result = await _mediator.Send(command);
+            if (result.Success)
             {
-                return Ok("Movie added to watchlist successfully.");
+                return Ok(result);
             }
-            return BadRequest("Failed to add the movie to the watchlist.");
+            return BadRequest(result);
         }
 
         [HttpPost("mark-as-seen")]
         public async Task<IActionResult> MarkAsSeen(MarkMovieAsSeenCommand command)
         {
-            var success = await _mediator.Send(command);
-            if (success)
+            var result = await _mediator.Send(command);
+            if (result.Success)
             {
-                return Ok("Movie marked as seen successfully.");
+                return Ok(result);
             }
-            return BadRequest("Failed to mark the movie as seen.");
+            return BadRequest(result);
         }
 
         [HttpGet("search")]
         public async Task<IActionResult> Search([FromQuery] SearchMovieByNameQuery query)
         {
-            var movies = await _mediator.Send(query);
-            return Ok(movies);
+            var result = await _mediator.Send(query);
+            return Ok(result);
         }
 
         [HttpGet("watchlist")]
         public async Task<IActionResult> GetWatchlist([FromQuery] GetMoviesInWatchlistQuery query)
         {
-            var movies = await _mediator.Send(query);
-            return Ok(movies);
+            var result = await _mediator.Send(query);
+            return Ok(result);
         }
     }
 }
